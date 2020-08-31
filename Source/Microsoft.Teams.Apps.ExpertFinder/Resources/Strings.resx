@@ -117,184 +117,188 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MyProfileTitle" xml:space="preserve">
-    <value>My profile</value>
-    <comment>My profile button text shown on welcome card and help card</comment>
-  </data>
-  <data name="SearchTitle" xml:space="preserve">
-    <value>Search</value>
-    <comment>Search button text to show on welcome card , helpcard and search card.</comment>
+  <data name="AboutMePlaceHolderText" xml:space="preserve">
+    <value>情報を入力してください (最大 300 文字)</value>
+    <comment>[プロファイルの編集] アダプティブ カードの [自己紹介] 入力フィールドのゴースト テキスト</comment>
   </data>
   <data name="AboutMeTitle" xml:space="preserve">
-    <value>About me</value>
-    <comment>Input field label used on My profile adaptive card for About me attribute</comment>
-  </data>
-  <data name="DetailsTitle" xml:space="preserve">
-    <value>View more</value>
-    <comment>CTA show card button text that shows additional details on user profile card</comment>
-  </data>
-  <data name="EditProfileTitle" xml:space="preserve">
-    <value>Edit profile</value>
-    <comment>Button text that invokes Edit profile dialog from My profile adaptive card</comment>
-  </data>
-  <data name="FullNameTitle" xml:space="preserve">
-    <value>Name</value>
-    <comment>Input field label used on My profile adaptive card for Name attribute</comment>
-  </data>
-  <data name="GotoProfileTitle" xml:space="preserve">
-    <value>Go to profile</value>
-    <comment>Button text that allows users to navigate to AAD user profile web page</comment>
-  </data>
-  <data name="InterestTitle" xml:space="preserve">
-    <value>Interests</value>
-    <comment>Input field label used on My profile adaptive card for Interests attribute</comment>
-  </data>
-  <data name="SchoolsTitle" xml:space="preserve">
-    <value>Schools</value>
-    <comment>Input field label used on My profile adaptive card for Schools attribute</comment>
-  </data>
-  <data name="SkillsTitle" xml:space="preserve">
-    <value>Skills</value>
-    <comment>Input field label used on My profile adaptive card for Skills attribute</comment>
-  </data>
-  <data name="UpdateTitle" xml:space="preserve">
-    <value>Update</value>
-    <comment>Submit action button text on My profile adaptive card</comment>
-  </data>
-  <data name="WelcomeCardContent" xml:space="preserve">
-    <value>I can help you find people in your organization with specific expertise and skills. If it’s in their profile, I can find it! Here’s what you can do:</value>
-    <comment>Text to show on welcome card</comment>
-  </data>
-  <data name="SearchWelcomeCardContent" xml:space="preserve">
-    <value>Filter for individuals by skills, interests, and other attributes in their profiles.</value>
-    <comment>Welcome card text for Search command</comment>
-  </data>
-  <data name="WelcomeText" xml:space="preserve">
-    <value>Welcome!</value>
-    <comment>Welcome card header text</comment>
-  </data>
-  <data name="SearchCardContent" xml:space="preserve">
-    <value>Click **Search** to filter for individuals by skills, interests, and other attributes in their profiles.</value>
-    <comment>Suggestive text on card that invokes Search dialog task module</comment>
-  </data>
-  <data name="NotLoggedInText" xml:space="preserve">
-    <value>To search for experts, you’ll need to sign in.</value>
-    <comment>Text to show if user is not logged in.</comment>
+    <value>自己紹介</value>
+    <comment>[自己紹介] 属性の [マイ プロファイル] アダプティブ カードで使用される入力フィールド ラベル</comment>
   </data>
   <data name="ChatTitle" xml:space="preserve">
-    <value>Start a chat</value>
-    <comment>Button text to start a chat with user selected from search feature.</comment>
-  </data>
-  <data name="NoneText" xml:space="preserve">
-    <value>None</value>
-    <comment>Default text which is shown when any of the user attributes are empty in user profile card</comment>
-  </data>
-  <data name="AboutMePlaceHolderText" xml:space="preserve">
-    <value>Enter information (300 characters max)</value>
-    <comment>Ghost text for About me input field in Edit profile adaptive card.</comment>
-  </data>
-  <data name="SkillsPlaceHolderText" xml:space="preserve">
-    <value>Enter information (100 characters max)</value>
-    <comment>Ghost text for Skills input field in Edit profile adaptive card</comment>
-  </data>
-  <data name="SchoolsPlaceHolderText" xml:space="preserve">
-    <value>Enter information (200 characters max)</value>
-    <comment>Ghost text for Schools input field in Edit profile adaptive card</comment>
-  </data>
-  <data name="ValidationTaskModuleMessage" xml:space="preserve">
-    <value>Use semicolons between each item in the fields below.</value>
-    <comment>Validation text for multiple values supported input field s shown on My profile adaptive card.</comment>
-  </data>
-  <data name="EmptyProfileCardContent" xml:space="preserve">
-    <value>Please update your profile so your colleagues know what you do.</value>
-    <comment>Text to show on empty profile card.</comment>
-  </data>
-  <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Try again in a few minutes.</value>
-    <comment>Generic error message.</comment>
-  </data>
-  <data name="LoginSuccessText" xml:space="preserve">
-    <value>Login is successful!</value>
-    <comment>Text to show when login is successful</comment>
-  </data>
-  <data name="SignInCardText" xml:space="preserve">
-    <value>To search for experts, you’ll need to sign in.</value>
-    <comment>Text to show on sign in card</comment>
-  </data>
-  <data name="SignOutText" xml:space="preserve">
-    <value>You have been signed out.</value>
-    <comment>Text to show when user is signed out.</comment>
-  </data>
-  <data name="SignInButtonText" xml:space="preserve">
-    <value>Sign in</value>
-    <comment>Text to show on Sign in button in sign in card.</comment>
+    <value>チャットを開始する</value>
+    <comment>検索機能から選択されたユーザーとのチャットを開始するボタンのテキスト</comment>
   </data>
   <data name="DefaultCardContentME" xml:space="preserve">
-    <value>Type a keyword to find people with that information in their profile.</value>
-    <comment>Text to show for default values in messaging extension.</comment>
+    <value>キーワードを入力して、プロファイルにその情報を持つユーザーを検索します。</value>
+    <comment>メッセージング拡張機能の規定値として表示するテキスト</comment>
+  </data>
+  <data name="DetailsTitle" xml:space="preserve">
+    <value>もっと見る</value>
+    <comment>CTA ユーザー カードの詳細を示すカード ボタンのテキスト</comment>
+  </data>
+  <data name="EditProfileTitle" xml:space="preserve">
+    <value>プロファイルの編集</value>
+    <comment>[マイ プロファイル] アダプティブ カードから [プロファイルの編集] ダイアログを呼び出すボタンのテキスト</comment>
+  </data>
+  <data name="EmptyProfileCardContent" xml:space="preserve">
+    <value>自身のプロファイルを更新して、あなたのことを同僚に知らせてください。</value>
+    <comment>空のプロファイル カードに表示するテキスト</comment>
+  </data>
+  <data name="ErrorMessage" xml:space="preserve">
+    <value>問題が発生しました。数分後にもう一度お試しください。</value>
+    <comment>一般的なエラー メッセージ</comment>
   </data>
   <data name="FailedToUpdateProfile" xml:space="preserve">
-    <value>Something went wrong and I couldn’t update your profile. Try again in a few minutes.</value>
-    <comment>Text for error message when updating user profile api failed</comment>
-  </data>
-  <data name="HelpMessage" xml:space="preserve">
-    <value>I can help you find people in your organization with specific expertise and skills. Here’s what you can do:</value>
-    <comment>Text to show on help card.</comment>
-  </data>
-  <data name="InterestsPlaceHolderText" xml:space="preserve">
-    <value>Enter information (100 characters max)</value>
-    <comment>Ghost text for Interests input field in Edit profile adaptive card</comment>
-  </data>
-  <data name="SearchTaskModuleTitle" xml:space="preserve">
-    <value>Search for experts</value>
-    <comment>Task module title that allows user to search for experts within the organization</comment>
-  </data>
-  <data name="InvalidTenant" xml:space="preserve">
-    <value>Sorry! You don't seem to be a user in the organization for which I was set up.</value>
-    <comment>Message to be shown if tenant id doesn't match with authorized tenant</comment>
-  </data>
-  <data name="MyProfileWelcomeCardContent" xml:space="preserve">
-    <value>See how your profile looks to others. Update your profile with skills, interests, and schools.</value>
-    <comment>Welcome card text for My profile command</comment>
-  </data>
-  <data name="InitialSearchResultMessageBodyText" xml:space="preserve">
-    <value>Hint: Type a skill (like “data visualization”), interest (“hiking”), or the name of a school to find people with that information in their profile.</value>
-    <comment>Suggestive text for users on search for experts task module</comment>
-  </data>
-  <data name="InitialSearchResultMessageHeaderText" xml:space="preserve">
-    <value>Here are list of things one can do:</value>
-    <comment>Initial search result header suggestive text on search for experts task module</comment>
-  </data>
-  <data name="MaxUserProfilesError" xml:space="preserve">
-    <value>You can select up to 5 user profiles.</value>
-    <comment>Error message when user selects more than 5 user profiles from the search result on search for experts task module</comment>
-  </data>
-  <data name="SearchResultNoItemsText" xml:space="preserve">
-    <value>No results found. Try a different keyword.</value>
-    <comment>Error message when search result returns 0 records on search for experts task module</comment>
-  </data>
-  <data name="SearchTextBoxPlaceholder" xml:space="preserve">
-    <value>Type a term to search for</value>
-    <comment>Ghost text for search box on search for experts task module</comment>
-  </data>
-  <data name="ViewButtonText" xml:space="preserve">
-    <value>View</value>
-    <comment>View button text to view selected user profiles on search for experts task module</comment>
+    <value>問題が発生したため、プロファイルを更新できませんでした。数分後にもう一度お試しください。</value>
+    <comment>ユーザー プロファイル APIの更新に失敗したときのエラー メッセージのテキスト</comment>
   </data>
   <data name="ForbiddenErrorMessage" xml:space="preserve">
-    <value>Sorry, seems like you don't have permission to access this page.</value>
-    <comment>Error message if user do not have permission to view the requested resource.</comment>
+    <value>このページにアクセスする権限がありません。</value>
+    <comment>ユーザーが要求されたリソースを表示する権限を持っていない場合のエラー メッセージ</comment>
+  </data>
+  <data name="FullNameTitle" xml:space="preserve">
+    <value>名前</value>
+    <comment>[名前] 属性の [マイ プロファイル] アダプティブ カードで使用される入力フィールド ラベル</comment>
   </data>
   <data name="GeneralErrorMessage" xml:space="preserve">
-    <value>Oops! An unexpected error seems to have occured. Why not try refreshing your page? Or you can contact your administrator if the problem persists.</value>
-    <comment>Error message when something unexpected happened.</comment>
+    <value>予期しないエラーが発生しました。ページを更新してください。問題が解決しない場合は、管理者にお問い合わせください。</value>
+    <comment>予期しないことが起きた場合のエラー メッセージ</comment>
   </data>
-  <data name="UnauthorizedErrorMessage" xml:space="preserve">
-    <value>Sorry, an error occurred while trying to access this service.</value>
-    <comment>Error message if user is unauthozed to access api</comment>
+  <data name="GotoProfileTitle" xml:space="preserve">
+    <value>プロファイルへ移動</value>
+    <comment>ユーザーがAAD ユーザー プロファイル Web ページに移動できるようにするボタンのテキスト</comment>
+  </data>
+  <data name="HelpMessage" xml:space="preserve">
+    <value>組織内で特定の専門知識と技能を持つユーザーを検索できます。できることは次のとおりです。</value>
+    <comment>ヘルプ カードに表示するテキスト</comment>
+  </data>
+  <data name="InitialSearchResultMessageBodyText" xml:space="preserve">
+    <value>ヒント : 技能 (「データ ビジュアライゼーション」など) 、興味 (「ハイキング」) 、学歴を入力して、プロファイルにその情報を持つ人々を見つけます。</value>
+    <comment>エキスパート検索タスク モジュールにおけるユーザーのための示唆テキスト</comment>
+  </data>
+  <data name="InitialSearchResultMessageHeaderText" xml:space="preserve">
+    <value>次のことができます。</value>
+    <comment>エキスパート検索タスク モジュールにおける初回検索時のヘッダーの示唆テキスト</comment>
+  </data>
+  <data name="InterestsPlaceHolderText" xml:space="preserve">
+    <value>情報を入力してください (最大 100 文字)</value>
+    <comment>[プロファイルの編集] アダプティブ カードの [興味] 入力フィールドのゴースト テキスト</comment>
+  </data>
+  <data name="InterestTitle" xml:space="preserve">
+    <value>興味</value>
+    <comment>[興味] 属性の [マイ プロファイル] アダプティブ カードで使用される入力フィールド ラベル</comment>
+  </data>
+  <data name="InvalidTenant" xml:space="preserve">
+    <value>あなたのアカウントはこの組織に所属していません。</value>
+    <comment>テナント ID が承認済みテナントと一致しない場合に表示されるメッセージ</comment>
+  </data>
+  <data name="LoginSuccessText" xml:space="preserve">
+    <value>サインインに成功しました。</value>
+    <comment>サインインが成功したときに表示するテキスト</comment>
+  </data>
+  <data name="MaxUserProfilesError" xml:space="preserve">
+    <value>最大 5 つのユーザー プロファイルを選択できます。</value>
+    <comment>ユーザーがエキスパート検索タスク モジュールで検索結果から 5 つ以上のユーザー プロファイルを選択すると表示されるエラーメッセージ</comment>
+  </data>
+  <data name="MyProfileTitle" xml:space="preserve">
+    <value>マイ プロファイル</value>
+    <comment>ウェルカム カードとヘルプ カードに表示される [マイプロファイル] ボタンのテキスト</comment>
+  </data>
+  <data name="MyProfileWelcomeCardContent" xml:space="preserve">
+    <value>プロファイルが他の人にどのように見えるかを確認します。技能、興味、学歴でプロファイルを更新します。</value>
+    <comment>[マイ プロファイル] コマンドのウェルカム カード テキスト</comment>
+  </data>
+  <data name="NoneText" xml:space="preserve">
+    <value>なし</value>
+    <comment>ユーザー プロファイル カードでユーザー属性のいずれかが空の場合に表示される既定のテキスト</comment>
+  </data>
+  <data name="NotLoggedInText" xml:space="preserve">
+    <value>ユーザーを検索するには、サインインする必要があります。</value>
+    <comment>ユーザーがサインインしていない場合に表示するテキスト</comment>
   </data>
   <data name="RefreshLinkText" xml:space="preserve">
-    <value>Refresh</value>
-    <comment>Refresh link text that will be shown on error page</comment>
+    <value>更新</value>
+    <comment>エラー ページに表示されるリンク テキストを更新するテキスト</comment>
+  </data>
+  <data name="SchoolsPlaceHolderText" xml:space="preserve">
+    <value>情報を入力してください (最大 200 文字)</value>
+    <comment>[プロファイルの編集] アダプティブ カードの [学歴] 入力フィールドのゴースト テキスト</comment>
+  </data>
+  <data name="SchoolsTitle" xml:space="preserve">
+    <value>学歴</value>
+    <comment>[学歴] 属性の [マイプロファイル] アダプティブ カードで使用される入力フィールド ラベル</comment>
+  </data>
+  <data name="SearchCardContent" xml:space="preserve">
+    <value>[検索] をクリックして、技能、興味、学歴でユーザーをフィルタリングします。</value>
+    <comment>検索ダイアログ タスク モジュールを呼び出すカード上の示唆テキスト</comment>
+  </data>
+  <data name="SearchResultNoItemsText" xml:space="preserve">
+    <value>結果が見つかりませんでした。別のキーワードをお試しください。</value>
+    <comment>エキスパート検索タスク モジュールにおける検索結果が 0 件の場合に表示されるメッセージ</comment>
+  </data>
+  <data name="SearchTaskModuleTitle" xml:space="preserve">
+    <value>ユーザーを検索</value>
+    <comment>ユーザーが組織内の専門家を検索できるタスク モジュールのタイトル</comment>
+  </data>
+  <data name="SearchTextBoxPlaceholder" xml:space="preserve">
+    <value>検索する用語を入力してください</value>
+    <comment>エキスパート検索タスク モジュールの検索ボックスのゴースト テキスト</comment>
+  </data>
+  <data name="SearchTitle" xml:space="preserve">
+    <value>検索</value>
+    <comment>ウェルカム カード、ヘルプ カード、検索カードに表示する検索ボタンのテキスト</comment>
+  </data>
+  <data name="SearchWelcomeCardContent" xml:space="preserve">
+    <value>技能、興味、学歴でユーザーをフィルタリングします。</value>
+    <comment>検索コマンドのウェルカム カード テキスト</comment>
+  </data>
+  <data name="SignInButtonText" xml:space="preserve">
+    <value>サインイン</value>
+    <comment>サインイン カードの [サインイン] ボタンに表示するテキスト</comment>
+  </data>
+  <data name="SignInCardText" xml:space="preserve">
+    <value>ユーザーを検索するには、サインインする必要があります。</value>
+    <comment>サインイン カードに表示するテキスト</comment>
+  </data>
+  <data name="SignOutCommandText" xml:space="preserve">
+    <value>SIGNOUT;LOGOUT;SIGN OUT;LOG OUT;サインアウト;ログアウト</value>
+    <comment>ユーザーがサインアウトするためのコマンド テキスト (セミコロン区切り)</comment>
+  </data>
+  <data name="SignOutText" xml:space="preserve">
+    <value>サインアウトしました。</value>
+    <comment>ユーザーがサインアウトしたときに表示するテキスト</comment>
+  </data>
+  <data name="SkillsPlaceHolderText" xml:space="preserve">
+    <value>情報を入力してください (最大 100 文字)</value>
+    <comment>[プロファイルの編集] アダプティブ カードの [技能] 入力フィールドのゴースト テキスト</comment>
+  </data>
+  <data name="SkillsTitle" xml:space="preserve">
+    <value>技能</value>
+    <comment>[技能] 属性の [マイ プロファイル] アダプティブ カードで使用される入力フィールド ラベル</comment>
+  </data>
+  <data name="UnauthorizedErrorMessage" xml:space="preserve">
+    <value>このサービスへのアクセス中にエラーが発生しました。</value>
+    <comment>ユーザーが API へのアクセスを許可されていない場合のエラー メッセージ</comment>
+  </data>
+  <data name="UpdateTitle" xml:space="preserve">
+    <value>更新</value>
+    <comment>[マイ プロファイル] アダプティブ カードの送信アクション ボタンのテキスト</comment>
+  </data>
+  <data name="ValidationTaskModuleMessage" xml:space="preserve">
+    <value>各項目の間にはセミコロンを使用します。</value>
+    <comment>[マイ プロファイル] アダプティブ カードに表示される、複数の値をサポートする入力フィールドの検証テキスト</comment>
+  </data>
+  <data name="ViewButtonText" xml:space="preserve">
+    <value>表示</value>
+    <comment>エキスパート検索タスク モジュールにおける、選択されたユーザー プロファイルを表示するボタンのテキスト</comment>
+  </data>
+  <data name="WelcomeCardContent" xml:space="preserve">
+    <value>組織内で特定の専門知識と技能を持つ人物を検索できます。プロファイルにその情報があれば見つけることができます。できることは次のとおりです。</value>
+    <comment>ウェルカム カードに表示するテキスト</comment>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>ようこそ !</value>
+    <comment>ウェルカム カードのヘッダー テキスト</comment>
   </data>
 </root>

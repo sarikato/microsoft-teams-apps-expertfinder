@@ -7,20 +7,20 @@
   "developer": {
     "name": "<<company name>>",
     "websiteUrl": "<<websiteUrl>>",
-    "privacyUrl": "<<privacyUrl>>",
-    "termsOfUseUrl": "<<termsOfUseUrl>>"
+    "privacyUrl": "<<websiteUrl>>",
+    "termsOfUseUrl": "<<websiteUrl>>"
   },
   "icons": {
     "color": "color.png",
     "outline": "outline.png"
   },
   "name": {
-    "short": "Expert Finder",
-    "full": "Expert Finder"
+    "short": "エキスパート ファインダー",
+    "full": "エキスパート ファインダー"
   },
   "description": {
-    "short": "Expert Finder lets users search for experts based on some attributes",
-    "full": "Expert Finder lets users search for experts in an organization based on their skills, interests or schools attended. In addition, it also provides users the ability to update their profile information and keep it up to date. "
+    "short": "エキスパート ファインダーを使用すると、いくつかの属性に基づいてユーザーを検索することができます。",
+    "full": "エキスパート ファインダーを使用すると、技能、興味、学歴に基づいて組織内のユーザーを検索できます。さらに、自身のプロファイル情報を更新して最新の状態に保つことができます。"
   },
   "accentColor": "#FEAE25",
   "bots": [
@@ -36,16 +36,16 @@
           ],
           "commands": [
             {
-              "title": "My profile",
-              "description": "My profile"
+              "title": "マイ プロファイル",
+              "description": "マイ プロファイル"
             },
             {
-              "title": "Search",
-              "description": "Search individuals"
+              "title": "検索",
+              "description": "ユーザーを検索"
             },
             {
-              "title": "Logout",
-              "description": "Sign out of Expert Finder"
+              "title": "サインアウト",
+              "description": "エキスパート ファインダーからサインアウトする"
             }
           ]
         }
@@ -62,8 +62,8 @@
         {
           "id": "skills",
           "type": "query",
-          "title": "Skills",
-          "description": "Search experts on basis of skills",
+          "title": "技能",
+          "description": "技能に基づいてユーザーを検索",
           "initialRun": true,
           "fetchTask": false,
           "context": [
@@ -73,8 +73,8 @@
           "parameters": [
             {
               "name": "skills",
-              "title": "Skills",
-              "description": "Search experts on basis of skills",
+              "title": "技能",
+              "description": "技能に基づいてユーザーを検索",
               "inputType": "text"
             }
           ]
@@ -82,8 +82,8 @@
         {
           "id": "interests",
           "type": "query",
-          "title": "Interests",
-          "description": "Search experts on basis of interest",
+          "title": "興味",
+          "description": "興味に基づいてユーザーを検索",
           "initialRun": true,
           "fetchTask": false,
           "context": [
@@ -93,8 +93,8 @@
           "parameters": [
             {
               "name": "interests",
-              "title": "Interests",
-              "description": "Search experts on basis of interest",
+              "title": "興味",
+              "description": "興味に基づいてユーザーを検索",
               "inputType": "text"
             }
           ]
@@ -102,8 +102,8 @@
         {
           "id": "schools",
           "type": "query",
-          "title": "Schools",
-          "description": "Search experts on basis of schools",
+          "title": "学歴",
+          "description": "学歴に基づいてユーザーを検索",
           "initialRun": true,
           "fetchTask": false,
           "context": [
@@ -113,8 +113,8 @@
           "parameters": [
             {
               "name": "schools",
-              "title": "Schools",
-              "description": "Search experts on basis of schools",
+              "title": "学歴",
+              "description": "学歴に基づいてユーザーを検索",
               "inputType": "text"
             }
           ]
@@ -128,6 +128,6 @@
   ],
   "validDomains": [
     "token.botframework.com",
-    "<<validdomains>>"
+    "<<validDomains>>"
   ]
 }

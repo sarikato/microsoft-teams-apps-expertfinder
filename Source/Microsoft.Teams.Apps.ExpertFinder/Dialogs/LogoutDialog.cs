@@ -20,7 +20,7 @@ namespace Microsoft.Teams.Apps.ExpertFinder.Dialogs
         /// <summary>
         /// Text that triggers logout action.
         /// </summary>
-        private static readonly ISet<string> LogoutCommands = new HashSet<string> { "LOGOUT", "SIGNOUT", "LOG OUT", "SIGN OUT" };
+        private static readonly ISet<string> LogoutCommands = new HashSet<string>(Strings.SignOutCommandText.Split(';', System.StringSplitOptions.RemoveEmptyEntries));
 
         /// <summary>
         /// Bot OAuth connection name.
